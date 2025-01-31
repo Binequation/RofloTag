@@ -1,0 +1,14 @@
+# Remove vscode artifacts
+.vscode
+.idea
+
+# Remove pre-loaded models
+*.pt
+
+# Remove Python artifacts
+.venv
+__pycache__/
+*.pyc
+.DS_Store
+data/*
+models/*
